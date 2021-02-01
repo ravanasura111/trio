@@ -1,0 +1,29 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Design and Analysis for composite bridges</li>
+</ul>
+<section class="bridge">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>Design and Analysis for composite Bridges</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+           <p>
+            TrioVision has designed and analysed FRP bridge in collaboration with BGL technologies for an American client using pultruded sections. Initially the weight was pretty high but after successful engineering analysis done the customer had a weight saving of 40 percent which has directly improved his cost and the same time meeting its structural properties.
+
+           </p>
+           <p>
+            We have also constructed small prototype and did testing before real structure is commissioned at client end.
+           </p>
+       </div>
+         <div class="col-md-12">
+             <div class="row">
+                <div class="col-md-6 col-sm-12" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+             </div>
+         </div>
+   </div>
+</section>

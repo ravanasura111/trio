@@ -1,0 +1,27 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Manufacturing<i class="fas fa-greater-than"></i></li>
+    <li class="normal">LRTM</li>
+</ul>
+<section class="lrtm">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>LRTM</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+           <p>
+            TrioVision has capabilities to process Light RTM tooling even with split or loose insert concept. Using consistence in fiber lay up and process the defects are controlled and quality parts are produced with both side finish and with great thickness control. We have processed close to 5,000 square meter of tools and produced more than 60 tons of resins till date on various projects in LRTM.
+           </p>
+       </div>
+       <div class="container images">
+        <div class="row">
+            <div class="col-md-6 col-sm-12" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+        </div>
+        
+    </div>
+   </div>
+</section>

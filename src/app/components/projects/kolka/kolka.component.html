@@ -1,0 +1,25 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">More Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Kolkata Metro</li>
+</ul>
+<section class="kolka">
+  <div class="container">
+      <div class="col-md-12">
+          <h5>Kolkata Metro</h5>
+          <hr>
+      </div>
+      <div class="col-md-12">
+        TrioVision has supplied interior parts to Indian Railways for its ICF factory in Chennai. Fire standard followed is NPP 502. Number of train sets produced is 10 with a gelcoat finish and gloss upto 80 +/- 10. This is one of the metro coach that is done by ICF on its own with latest standards and specifications in place.
+
+      </div>
+      <div class="col-md-12 images">
+          <div class="row">
+            <div class="col-md-6 col-sm-12" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+          </div>
+      </div>
+  </div>
+</section>

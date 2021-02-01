@@ -1,0 +1,51 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">More<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Gallery</li>
+</ul>
+<section class="gallery">
+   <div class="container-fluid">
+       <div class="col-md-12">
+           <h2>Our Gallery</h2>
+           <hr>
+       </div>
+       <div class="container-fluid">
+           <div class="buttons">
+               <a (click)="visit()" class="btn btn-lg" [class.changestyle]="isClicked">Industrial Directors Visit</a>
+               <a (click)="visit2()" class="btn btn-lg" [class.changestyle]="isClicked1">IIT Tirupathi</a>
+               <a (click)="visit3()" class="btn btn-lg" [class.changestyle]="isClicked2">Taiwan Ambasidar Visit</a>
+
+           </div>
+       </div>
+      
+     
+   </div>
+</section>
+<section class="gal2">
+    <div class="container-fluid"  *ngIf="visiting">
+        <div class="row">
+         <div class="col-md-3 col-sm-6" *ngFor="let image of albums; let i=index">
+             <img   [src]="image.thumb" (click)="open(i)" />
+         </div>
+       
+        </div>
+       
+    </div>
+    
+    <div class="container-fluid" *ngIf="iits">
+        <div class="row">
+            <div  class="col-md-3 col-sm-6" *ngFor="let image of albums2; let j=index">
+                <img   [src]="image.thumb" (click)="open(j)" />
+            </div>
+        
+        </div>
+    </div>
+    <div class="container-fluid" *ngIf="ambs">
+        <div class="row">
+            <div  class="col-md-3 col-sm-6" *ngFor="let image of albums3; let k=index">
+                <img   [src]="image.thumb" (click)="open(k)" />
+            </div>
+        
+        </div>
+    </div>
+</section>

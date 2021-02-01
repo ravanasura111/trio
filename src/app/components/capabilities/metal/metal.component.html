@@ -1,0 +1,26 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Metal Fabrication</li>
+</ul>
+<section class="Metal">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>Metal Fabrication</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+           <p>
+            TrioVision has state of the art Fabrication facility catering to various industries with CNC laser cut, CNC bending, sheet metal development, welding technology in addition to a well qualified team to produce quality components. We do well defined jigs and fixtures to ensure we provide consistent and quality output to clients meeting the tolerance specifications.
+           </p>
+       </div>
+       <div class="container images">
+        <div class="row">
+            <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+        </div>
+        
+    </div>
+   </div>
+</section>

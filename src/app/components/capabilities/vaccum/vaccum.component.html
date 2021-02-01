@@ -1,0 +1,27 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Manufacturing<i class="fas fa-greater-than"></i></li>
+
+    <li class="normal">Vacuum Infusion</li>
+</ul>
+<section class="vac">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>Vacuum Infusion</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+           <p>
+            TrioVision has capabilities to process Vacuum infusion tooling even with split or loose insert concept. Using standard vaccum consumables and consistent process flow quality parts are produced with great fiber content and uniform thickness. We have processed close to 1,000 square meter of tools and produced more than 10 tons of resin till date on various projects in Vacuum infusion process. Special trials are also conducted for feasibility and usage of silicone bagging to eliminate vacuum consumables.        </p>
+       </div>
+       <div class="container images">
+        <div class="row">
+            <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+        </div>
+        
+    </div>
+   </div>
+</section>

@@ -1,0 +1,36 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Water Slide Production</li>
+</ul>
+<section class="waterslide">
+  
+    <div class="container">
+        <div class="col-md-12">
+            <h5>Water slide Production</h5>
+            <hr>  
+        </div>
+        <div class="col-md-12">
+            <p>
+                TrioVision has processed close to 100 tons of resin with LRTM process for close to 18 projects of waterslide executed in a span of one year. The molds ranged from 2 square meter to as big as 45 square meter with deep draws done in LRTM with great thickness control and consistency in quality. 
+                   </p>
+                   <p>
+                    Both sides having gelcoat finish, some special effect parts were also produced like strip and moon effect by using specialised masking jigs.
+                   </p>
+                   <p>
+                    Around 16 projects were exported to several countries like Europe, South America, Srilanka the parts were made with stringent quality standards and mock assembly is done at factory to ensure that the assembly at site is executed without issues. Tooling of close to 350 square meter of various sizes of 65 numbers have been made in LRTM process within a short span of 2 months.  
+
+                   </p>
+        </div>
+        <div class="container images">
+            <div class="row">
+                <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+

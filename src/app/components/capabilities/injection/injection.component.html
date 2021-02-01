@@ -1,0 +1,37 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Injection Moulding</li>
+</ul>
+<section class="injection">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>Injection Moulding</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+           <p>
+            TrioVision has state of the art Injection Molding facility with testing lab. Starting from design, tooling, prototyping and producing product and continuing it to serial production are all done in house. Catering to various industries, quality product with right specifications are guaranteed with our well qualified team.
+
+           </p>
+       </div>
+  <div class="col-md-12">
+            <div class="row">
+                <!-- <div class="col-md-3">
+                     <img src="../../../../assets/Pattern/IMG_20171003_230619.jpg" alt="">
+                </div>
+                -->
+                <div class="col-md-6 col-sm-12"  *ngFor="let image of albums; let i=index">
+                    <!-- <img src="../../../../assets/Awards/DSC_1261.JPG" alt=""> -->
+                    <img [src]="image.thumb" (click)="open(i)"  />
+         
+                    </div>
+               <!-- <div class="col-md-3"  *ngFor="let image of _albums; let i=index">
+                <img src="../../../../assets/Pattern/IMG_20180113_104610.jpg" alt="">
+                <img [src]="image.thumb" (click)="open(i)" />
+
+           </div> -->
+            </div>
+        </div>
+   </div>
+</section>

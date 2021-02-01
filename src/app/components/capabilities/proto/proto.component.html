@@ -1,0 +1,34 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Proto Making</li>
+</ul>
+<section class="proto">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>Proto Making</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+           <p>
+            TrioVision has capabilities to build prototypes or mock ups with great attention to quality and details. This way the prototype will be as close as pos
+            sible to the design. We can also produce jigs and fixtures during design stage which will be useful during serial production. 
+           </p>
+           <p>
+            The jigs are thoroughly inspected during the built process and they are ensured to give desired repeatability in regular production.
+           </p>
+           <p>
+            Other requirements related to serial production fiber cut templates, transportation jigs are also possible in the prototyping stage. Any structural tests or type tests can be performed as per customer requirements during mock up stage.
+
+           </p>
+       </div>
+     <div class="container images">
+            <div class="row">
+                <div class="col-md-6 col-sm-12" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+            </div>
+            
+        </div>
+   </div>
+</section>

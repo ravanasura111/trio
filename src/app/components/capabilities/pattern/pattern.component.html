@@ -1,0 +1,43 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Composite Tooling<i class="fas fa-greater-than"></i></li>
+
+    <li class="normal">Pattern Making</li>
+</ul>
+<section class="pattern">
+    <div class="container">
+        <div class="col-md-12">
+            <h5>Pattern Making</h5>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <p>
+                TrioVision uses various materials like Medium Density Fiberboard, Hard Polyurethane Foam and in some cases where accuracies are lenient High Density Polystyrene can also be used. Stock is built initially on a base frame and then using our milling machines, required shape is given.
+
+            </p>
+            <p>
+                After unloading from machine the pattern is spayed with primer and topcoat and will undergo various sanding cycles to achieve desired gloss requirement if it is matt, semi gloss, high gloss or Class A finish. Finally the patterns are inspected and buffed using buffing compound depending on gloss requirement. After applying release agent, the patterns go to moldmaking stage.
+
+            </p>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <!-- <div class="col-md-3">
+                     <img src="../../../../assets/Pattern/IMG_20171003_230619.jpg" alt="">
+                </div>
+                -->
+                <div class="col-md-6 col-sm-12"  *ngFor="let image of albums; let i=index">
+                    <!-- <img src="../../../../assets/Awards/DSC_1261.JPG" alt=""> -->
+                    <img [src]="image.thumb" (click)="open(i)"  />
+         
+                    </div>
+               <!-- <div class="col-md-3"  *ngFor="let image of _albums; let i=index">
+                <img src="../../../../assets/Pattern/IMG_20180113_104610.jpg" alt="">
+                <img [src]="image.thumb" (click)="open(i)" />
+
+           </div> -->
+            </div>
+        </div>
+    </div>
+</section>

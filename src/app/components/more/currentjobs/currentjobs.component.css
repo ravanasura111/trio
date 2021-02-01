@@ -1,0 +1,125 @@
+ul li{
+    float: left;
+    padding: 10px 0;
+    display: block;
+    
+}
+ ul{
+    list-style: none;
+}
+ ul li{
+      font-size: 14px;
+      padding: 5px 5px;
+
+}
+ ul li i{
+    font-size: 10px;
+    padding: 0px 10px;
+}
+ ul li:focus{
+    outline: none;
+}
+ .high{
+    font-size: 15px!important;
+    color: orange!important;
+}
+ .high:hover{
+    color: rgb(9, 29, 19)!important;
+    cursor: pointer;
+}
+.jobs{
+
+    padding-top: 50px;
+    margin: 0;
+    font-size: 18px;
+    padding-right: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
+
+}
+.jobs h5{
+    color: #ff5e14;
+    font-size: 30px;
+    font-weight:bolder
+}
+.jobs h4{
+    color: #ff5e14;
+    font-size: 22px;
+}
+
+.theme-btn{
+    font-size:16px;
+    font-weight:700;
+    margin-top:10px;
+    text-transform:capitalize;
+    padding:10px 30px;
+    border:2px solid #043140;
+    font-family:Arimo,sans-serif;
+    background:#043140;
+    display:inline-block;
+    line-height:24px;
+    cursor:pointer;
+    position: relative;
+    color:#fff;
+}
+ .theme-btn:hover{color:#043140;border-color:#043140;background:0 0}
+
+ .jobbs{
+     height:auto;
+     width: 100%;
+     background-color: #fff;
+     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+     border-left: 30px solid #043140;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     margin-bottom: 100px;
+     padding-bottom: 60px;
+ }
+ .jobbs h3 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #043140;
+    padding: 20px 10px 10px 10px;
+}
+.jobbs h6 {
+        font-size: 20px;
+        color: #ff5e14;
+        padding: 5px 10px;
+    }
+.jobbs .qual{
+    padding: 10px 30px 10px 10px;
+    color: #043140;
+    margin-top: 20px;
+}
+.jobbs .quals{
+    padding: 10px 30px 10px 10px;
+    color: #ff5e14;
+    margin-top: 20px;
+}
+.fa-map-marker-alt:before {
+    font-size: 35px;
+    padding-left: 10px;
+    color: #043140;
+}
+.jobbs button{
+    float: right;
+    margin-right: 35px;
+    color: #fff;
+    background-color: #043140;
+    border: 2px solid #fff;
+    border-radius:5px;
+    font-size: 18px;
+    height: 50px;
+}
+.jobbs button:hover{
+   background-color: #fff;
+   color: #043140;
+   border: 2px solid #043140;
+   
+}
+.jobbs p{
+    padding: 10px 40px 10px 10px;
+    color: #043140;
+    font-size:16px;
+}

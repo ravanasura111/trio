@@ -1,0 +1,33 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Composite Tooling<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Mould Making</li>
+</ul>
+<section class="mould">
+  <div class="container">
+      <div class="col-md-12">
+          <h5>Mould Making</h5>
+          <hr>
+      </div>
+      <div class="col-md-12">
+          <p>
+            TrioVision uses standard Vinyl Ester system for all the tooling requirements. The zero shrink tooling system ensures that the molds are made out of patterns with good accuracies with minimum shrinkage.
+
+          </p>
+          <p>
+            Part shrinkage allowances are provided in the design stage so that the parts fall within the tolerances. Any complex design is addressed with Design For Manufacturability which ensures that the molds are fit for the right application and usage. Split mold, press mold, loose inserts are provided for complex shapes with undercuts and for thickness control. Molds for processes like open molding, Light Resin Transfer Moldinng, Vacuum infusion, Vacuum bagging are possible confirming to strict quality compliances.
+
+
+          </p>
+      </div>
+      <div class="container images">
+        <div class="row">
+            <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+        </div>
+        
+    </div>
+  </div>
+</section>

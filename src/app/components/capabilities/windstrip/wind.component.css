@@ -1,0 +1,149 @@
+ul li{
+    float: left;
+    padding: 10px 0;
+    display: block;
+    
+}
+ ul{
+    list-style: none;
+}
+ ul li{
+      font-size: 14px;
+      padding: 5px 5px;
+
+}
+ ul li i{
+    font-size: 10px;
+    padding: 0px 10px;
+}
+ ul li:focus{
+    outline: none;
+}
+ .high{
+    font-size: 15px!important;
+    color: orange!important;
+}
+ .high:hover{
+    color: rgb(9, 29, 19)!important;
+    cursor: pointer;
+}
+.wind{
+
+    padding-top: 50px;
+    margin: 0;
+    font-size: 18px;
+    padding-right: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
+
+}
+.wind h5{
+    color: #ff5e14;
+    font-size: 25px;
+
+}
+.wind img{  
+      width: 330px;
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    border: 4px #ddd solid;
+    margin-top:15px;
+    cursor: pointer;
+    object-position: center center;
+
+}
+.wind p{
+    margin:20px 0;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 460px) and (max-width: 600px) {
+
+    .wind img{  
+        width: 250px;
+      height: 230px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.9);
+      border-radius: 10px;
+      border: 4px #ddd solid;
+      margin-top:15px;
+      cursor: pointer;
+      object-position: center center;
+      margin-left:50px;
+  
+  }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+    .wind img{  
+        width: 250px;
+      height: 230px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.9);
+      border-radius: 10px;
+      border: 4px #ddd solid;
+      margin-top:15px;
+      cursor: pointer;
+      object-position: center center;
+      margin-left:50px;
+  
+  }
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .wind img{  
+        width: 210px;
+        height: 200px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.9);
+      border-radius: 10px; 
+      border: 4px #ddd solid;
+      margin-top:15px;
+      cursor: pointer;
+      object-position: center center;
+      margin-right: 40px;
+  
+  }
+
+}
+
+
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    .wind img{  
+        width: 250px;
+        height: 200px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.9);
+      border-radius: 10px; 
+      border: 4px #ddd solid;
+      margin-top:15px;
+      cursor: pointer;
+      object-position: center center;
+      margin-right: 40px;
+  
+  }
+
+}

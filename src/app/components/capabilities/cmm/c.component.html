@@ -1,0 +1,31 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">coordinate measuring machine</li>
+</ul>
+<section class="cmm">
+     <div class="container">
+         <div class="col-md-12">
+             <h5>Coordinate Measuring Machine</h5>
+             <hr>
+         </div>
+         <div class="col-md-12">
+             <p>
+                TrioVision uses one of the biggest portable arm  in current industry 4.5 meter circular reach. All patterns and molds as per customer requirements will undergo CMM inspections to ensure the accuracies are maintained. Any patterns bigger in size than 20 square meter are done using laser tracker from our channel partners.
+            ​</p>
+            <p>
+                Laser scanning for inspection or reverse engineering can also be performed depending on the customer’s requirements. Whether it is cad model comparison or dimensional verifications it is possible to submit reporters according to the needs.
+
+            </p>
+           
+         </div>
+         <div class="container images">
+            <div class="row">
+                <div class="col-md-6 col-md-12" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+            </div>
+            
+        </div>
+     </div>
+</section>

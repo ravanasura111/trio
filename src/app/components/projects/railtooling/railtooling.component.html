@@ -1,0 +1,33 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Rail Tooling</li>
+</ul>
+
+<section class="rail">
+       <div class="container">
+           <div class="col-md-12">
+               <h5>Manufacturing Projects- Railway</h5>
+               <hr>
+           </div>
+
+          <div class="col-md-12">
+              <p>
+                TrioVision has been actively doing tooling for Railways for Metro Coaches, Regional and High Speed Trains. Till date rail tooling close to 4,000 square meter tools have been made for various components in the train like Front End, Drivers Desk, Electrical panels, Cab fittings, Side walls, End Walls and Door Pillars.
+              </p>
+              <p>
+                Tools for various processes like Open Molding, Resin Transfer Molding, Vacuum Infusion, Prepeg Bagging were made. Some of the complex shapes and designs where done using split and loose insert concepts. The biggest tool made was Front End for Train 18 (now called as Vande Bharat Express) which was close to 30 square meter in area. 
+            </p>
+            <p>              
+                  TrioVision has created a unique name for itself in the Rail tooling market where qualities and accuracies are never compromised. This can be seen in the quick assemblies of the components on the train where no dimensional issues are reported especially for complex parts like Front End.
+
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+          </div>
+       </div>
+</section>
+

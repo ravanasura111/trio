@@ -1,0 +1,1503 @@
+.carousel-item img{
+	width: 100%;
+	object-position: center center;
+	object-fit: cover;
+}
+.aside-section{
+    padding: 30px ;
+}
+
+
+.our-partners{
+    padding: 30px;
+    
+}
+.our-partners h4{
+    padding: 10px 20px 50px 10px;
+    text-align: center;
+    color:  rgb(103, 180, 224);
+}
+.our-partners img{
+    width: 380px;
+    height: 350px;
+    margin-left: 30px;
+    padding: 20px 10px 10px 20px;
+}
+.carousel-control-prev {
+    left: 0;
+    width: 10%;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .carousel-inner .carousel.item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.1s ease-in-out left;
+    -moz-transition: 0.1s ease-in-out left;
+    -o-transition: 0.1s ease-in-out left;
+    transition: 0.1s ease-in-out left;
+}
+.carousel-inner .carousel-item .carouselp{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	color: #f1f1f1f1;
+	display: block;
+	width: 700px;
+	height: auto;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	padding: 20px 30px;
+	border-radius: 5px;
+}
+
+.carousel-inner .carousel-item .carouselp span{
+	display: block;
+	color: #f1f1f1e1;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+
+
+.content {
+    width: 406px;
+    height: 554px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 64px 64px 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 48px;
+}
+
+h2{
+    font-size: 30px;
+				font-weight: 700;
+				line-height: 40px;
+                margin-bottom: 12px;
+                color: rgb(103, 180, 224);
+                padding: 10px 20px 20px 0px;
+                margin: 15px;
+
+}
+
+p {
+    margin-top: 16px;
+    line-height: 28px;
+    margin-bottom: 26px;
+
+
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(129, 129, 129);
+    padding: 0 20px 25px 10px;
+}
+.aside-section img{
+    width: 130%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 11px;
+    margin-left: 8px;
+}
+
+ 
+
+
+
+
+
+
+
+
+ .topsection{
+ background-color: #043140;
+    height: 310px;
+}
+ .topsection h2{
+    padding-top: 42px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+ .bottomsection{
+    padding-bottom: 90px;
+}
+
+ .card {
+	box-shadow: 0px 8px 14px rgba(0,0,0,0.3);
+	border-radius: 15px;
+    border: none;
+    margin-top: -100px;
+}
+
+ .card img {
+    border-radius: 15px 15px 0 0;
+    height: 150px;
+}
+
+ .card-body {
+	border-radius: 0px 0px 15px 15px;
+}
+
+/* Horizontal line */
+ hr {
+	background: rgb(255,255,255);
+	height: 5px;
+	width: 10%;
+	padding: 2px;
+	border-radius: 50px;
+	background-repeat:repeat-x; 
+}
+
+/* Buttons Style */
+
+ .go .btn-primary {
+	transition: all 300ms ease-in;
+	background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: 1px solid rgba(2,0,36,1);
+}
+
+ .go .btn-primary:hover {
+	transition: all 300ms ease-out;
+	background: rgb(2,0,36);
+	background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(74,0,224,1) 40%);
+	border: 1px solid rgba(2,0,36,1);
+}
+/* Responsive */
+
+
+
+/*image card gallery anotations*/
+
+
+
+
+.shape{
+    background-color:#043140;
+    height: 100px;
+    width: 100%;
+}
+
+.shape h3{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 35px;
+
+}
+
+
+
+
+
+
+
+
+#container{
+	box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	
+  
+	
+}
+
+.col-md-6{
+    height: 350px;
+}
+
+
+.product-details {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 15px;
+	height: 100%;
+	float: left;
+	width: 300px;
+
+}
+
+#container .product-details h4{
+	position: relative;
+	font-size: 20px;
+	color: #344055;
+    margin: 0;
+    text-align: center;
+	
+}
+
+#container .product-details h4:before{
+	position: absolute;
+	content: '';
+	right: 0%; 
+	top: 0%;
+	transform: translate(25px, -15px);
+	display: inline-block;
+	background: #ffe6e6;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px;
+	color: white;
+	margin: 0;
+	animation: chan-sh 6s ease infinite;
+
+}
+#container .product-details .news{
+	color: #1c87aa;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+
+
+#container .product-details > p {
+	text-align: center;
+	font-size: 14px;
+    color: rgba(0, 0, 0, 0.466);
+	
+}
+
+
+
+#container .ppt{
+	cursor: pointer;
+}
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 300px;
+	display: inline-block;
+}
+.product-image img{
+    vertical-align: middle;
+    border-style: none;
+    width: 390px;
+	height: 350px;
+	object-position: center center;
+	
+}
+
+#container img {width: 300px;height: 300px;object-position: center center; object-fit: cover;}
+#container .ima1 {width: 300px;height: 300px;object-position: center center; }
+
+.product-image:hover .info{transform: translateX(0);}
+
+
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subsc{
+    background-color: #043140;
+    height: 250px;
+    width: 100%;
+}
+.vam h2{
+    padding-top: 15px;
+}
+.vam p{
+    color: white;
+}
+.d-tbc form{
+    padding-top: 110px;
+}
+.mt15{
+    background-color: white;
+    color: black;
+    width: 80px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 3px 2px 2px 3px;
+    margin-left: 500px;
+}
+.mt15 input{
+    text-align: center;
+    
+}
+
+
+.video{
+    position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+.video img{
+    height: 550px;
+}
+
+.video .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    height: 550px;
+  }
+  .video .det{
+      padding-left: 60px;
+  }
+  .video h5{
+      padding-top:20px;
+      color: #f1f1f19c;
+  }
+
+  .video .content h1{
+      margin-top: 80px;
+  }
+
+  .video .content .player{
+      margin-top: 120px;
+      
+      
+  }
+.video .content{
+	border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Demo Code: */
+
+
+.projcard-container {
+    margin: 50px 0;
+	width: 80%!important;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Actual Code: */
+.projcard-container,
+.projcard-container * {
+	box-sizing: border-box;
+}
+.projcard-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+.projcard {
+	position: relative;
+	width: 100%;
+	height: 350px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 2px solid #ddd;
+	font-size: 18px;
+	overflow: hidden;
+	cursor: pointer;
+	box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.projcard:hover {
+	transform: translate(0px, 0px);
+}
+.projcard::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(-70deg, #830101, transparent 50%);
+	opacity: 0.07;
+}
+.projcard:nth-child(2n)::before {
+	background-image: linear-gradient(-250deg, #f1e5e5, transparent 50%);
+}
+.projcard-innerbox {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.projcard-img {
+	position: absolute;
+	height: 390px;
+	width: 385px;
+	top: 0;
+	left: 0;
+	object-position:center center;
+
+
+}
+.projcard-img img{
+	object-position: center center;
+}
+.projcard:nth-child(2n) .projcard-img {
+	left: initial;
+	right: 0;
+}
+.projcard:hover .projcard-img {
+	transform: scale(1.05) rotate(1deg);
+}
+.projcard:hover .projcard-bar {
+	width: 70px;
+}
+.projcard-textbox {
+	position: absolute;
+	top: 7%;
+	bottom: 7%;
+	left: 430px;
+	width: calc(100% - 470px);
+	font-size: 17px;
+}
+.projcard:nth-child(2n) .projcard-textbox {
+	left: initial;
+	right: 430px;
+}
+.projcard-textbox::before,
+.projcard-textbox::after {
+	content: "";
+	position: absolute;
+	display: block;
+	background: #ff0000bb;
+	background: #fff;
+	top: -20%;
+	left: -55px;
+	height: 140%;
+	width: 60px;
+	transform: rotate(8deg);
+}
+.projcard:nth-child(2n) .projcard-textbox::before {
+	display: none;
+}
+.projcard-textbox::after {
+	display: none;
+	left: initial;
+	right: -55px;
+}
+.projcard:nth-child(2n) .projcard-textbox::after {
+	display: block;
+}
+.projcard-textbox * {
+	position: relative;
+}
+.projcard-title {
+	font-family: 'Voces', 'Open Sans', arial, sans-serif;
+	font-size: 24px;
+}
+.projcard-subtitle {
+	font-family: 'Voces', 'Open Sans', arial, sans-serif;
+	color: #888;
+}
+.projcard-bar {
+	left: -2px;
+	width: 50px;
+	height: 5px;
+	margin: 10px 0;
+	border-radius: 5px;
+	background-color: #424242;
+	transition: width 0.2s ease;
+}
+.projcard-blue .projcard-bar { background-color: #0088FF; }
+.projcard-blue::before { background-image: linear-gradient(-70deg, #0088FF, transparent 50%); }
+.projcard-blue:nth-child(2n)::before { background-image: linear-gradient(-250deg, #0088FF, transparent 50%); }
+.projcard-red .projcard-bar { background-color: #D62F1F; }
+.projcard-red::before { background-image: linear-gradient(-70deg, #D62F1F, transparent 50%); }
+.projcard-red:nth-child(2n)::before { background-image: linear-gradient(-250deg, #D62F1F, transparent 50%); }
+.projcard-green .projcard-bar { background-color: #40BD00; }
+.projcard-green::before { background-image: linear-gradient(-70deg, #40BD00, transparent 50%); }
+.projcard-green:nth-child(2n)::before { background-image: linear-gradient(-250deg, #40BD00, transparent 50%); }
+.projcard-yellow .projcard-bar { background-color: #F5AF41; }
+.projcard-yellow::before { background-image: linear-gradient(-70deg, #F5AF41, transparent 50%); }
+.projcard-yellow:nth-child(2n)::before { background-image: linear-gradient(-250deg, #F5AF41, transparent 50%); }
+.projcard-orange .projcard-bar { background-color: #FF5722; }
+.projcard-orange::before { background-image: linear-gradient(-70deg, #FF5722, transparent 50%); }
+.projcard-orange:nth-child(2n)::before { background-image: linear-gradient(-250deg, #FF5722, transparent 50%); }
+.projcard-brown .projcard-bar { background-color: #C49863; }
+.projcard-brown::before { background-image: linear-gradient(-70deg, #C49863, transparent 50%); }
+.projcard-brown:nth-child(2n)::before { background-image: linear-gradient(-250deg, #C49863, transparent 50%); }
+.projcard-grey .projcard-bar { background-color: #424242; }
+.projcard-grey::before { background-image: linear-gradient(-70deg, #424242, transparent 50%); }
+.projcard-grey:nth-child(2n)::before { background-image: linear-gradient(-250deg, #424242, transparent 50%); }
+.projcard-customcolor .projcard-bar { background-color: var(--projcard-color); }
+.projcard-customcolor::before { background-image: linear-gradient(-70deg, var(--projcard-color), transparent 50%); }
+.projcard-customcolor:nth-child(2n)::before { background-image: linear-gradient(-250deg, var(--projcard-color), transparent 50%); }
+.projcard-description {
+	font-size: 18px;
+	color: #424242;
+	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.projcard-tagbox {
+	position: absolute;
+	bottom: 3%;
+	font-size: 14px;
+	cursor: default;
+	user-select: none;
+	pointer-events: none;
+}
+.projcard-tag {
+	display: inline-block;
+	background: #E0E0E0;
+	color: #777;
+	border-radius: 3px 0 0 3px;
+	line-height: 26px;
+	padding: 0 10px 0 23px;
+	position: relative;
+	margin-right: 20px;
+	cursor: default;
+	user-select: none;
+	transition: color 0.2s;
+}
+.projcard-tag::before {
+	content: '';
+	position: absolute;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+	height: 6px;
+	left: 10px;
+	width: 6px;
+	top: 10px;
+}
+.projcard-tag::after {
+	content: '';
+	position: absolute;
+	border-bottom: 13px solid transparent;
+	border-left: 10px solid #E0E0E0;
+	border-top: 13px solid transparent;
+	right: -10px;
+	top: 0;
+}
+
+
+.radi {
+	background-color: #fff;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+     padding: 20px;
+	margin-top:20;
+	margin-right:10px;
+	width:350px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.3s ease-in;
+
+}
+.radi:focus{
+	border: none;
+}
+.radi:hover{
+	transform: translateY(-15px);
+}
+
+.mission i{
+     font-size: 100px;
+     padding-bottom: 20px;
+	 color: #043140;
+	 text-align: center;
+	 cursor: pointer;
+	 margin-left: 100px;
+
+}
+.mission h4{
+	text-align: center;
+    margin-left: -25px;
+    font-family: 'Lato', sans-serif;
+	margin-left: 46px;
+	cursor: pointer;
+	width: 200px;
+
+
+}
+.mission h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 30px;
+	color: #043140;
+	font-family: 'Lato', sans-serif;
+}
+
+.pcar h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 30px;
+    background-color: #043140;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 460px) and (max-width: 600px)  {
+
+	.carousel{
+		padding: 10px;
+	}
+	.carousel img{
+		width: 600px;
+		height: 400px;
+	}
+	.mission h2{
+
+		font-size: 24px;
+		padding: 10px;	}
+		.radi {
+			background-color: #fff;
+			box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+			padding: 20px;
+			margin-top: 20;
+			margin-top: 20px;
+			margin-left: 100px;
+			margin-right: 10px;
+			width: 250px;
+			margin-bottom: 50px;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: transform 0.3s ease-in;
+		}
+		.mission i{
+			font-size: 65px;
+	        margin-left: 60px;
+	        padding-top: 10px;
+
+		}
+		
+.mission h4 {
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    width: 200px;
+}
+.pcar h2 {
+    text-align: center;
+    font-size: 27px;
+    padding: 35px 20px;
+    background-color: #043140;
+    color: white;
+}
+
+.projcard {
+    position: relative;
+    width: 429px;
+    height: 210px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    font-size: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    margin-left: -30px;
+}
+/* .projcard-textbox::before, .projcard-textbox::after {
+    content: "";
+    position: absolute;
+
+} */
+.projcard-textbox::after {
+    left: initial;
+}
+.projcard-img {
+    position: absolute;
+	height: 205px;
+    width: 180px;
+    top: 0;
+    left: 0;
+    object-position: center center;
+}
+/* .projcard-img{
+    position: absolute;
+    height: 225px;
+    width: 280px;
+    top: 0;
+    left: 0;
+    object-position: center center;
+} */
+/* .projcard-textbox {
+    position: relative;
+    width: 262px;
+	margin-left: -123px;
+	font-size:13px;
+} */
+.projcard-title{
+	font-size: 12px;
+}
+.projcard-subtitle{
+	font-size: 12px;
+}
+ .projcard-blue .projcard-textbox{
+	/* position: absolute;
+    top: 7%;
+    bottom: 7%;
+    left: 246px;
+    width: calc(100% - 470px);
+	font-size: 12px; */
+	width: 189px;
+    margin-left: -200px;
+}
+ .projcard-red .projcard-textbox{
+    
+	width: 174px;
+    font-size: 9px;;
+}
+.projcard:nth-child(2n) .projcard-textbox {
+    left: initial;
+    right: 233px;  
+}
+.projcard-description {
+    font-size: 12px;
+    color: #424242;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.projcard-green .projcard-textbox{
+	width: 186px;
+    margin-left: -189px;
+}
+.projcard-customcolor .projcard-textbox{
+	width: 174px;
+
+}
+.ppt{
+	display: flex;
+	padding-bottom: 75px;
+	margin: 30px;
+
+}
+.product-details{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    padding: 35px;
+    height: 53%;
+    float: left;
+	width: 400px;
+	text-align: center;
+}
+.product-image img {
+    vertical-align: middle;
+    border-style: none;
+    width: 341px;
+    height: 174px;
+    object-position: center center;
+	object-fit: cover;
+	margin: 25px;
+}
+.product-image{
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 421px;
+    display: inline-block;
+	margin-left: 38px;
+	margin-bottom: 30px;
+}
+.subsc{
+	display: none;
+}
+.video .content h1 {
+    margin-top: 74px;
+    font-size: 20px;
+}
+.video .content .player {
+    margin-top: -157px;
+    margin-left: -29px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 767px)  {
+	.carousel-item img{
+		width: 767px;
+		height: auto;
+		object-fit: cover;
+		
+	}
+
+	.carousel{
+		padding: 10px;
+	}
+	.mission h2{
+
+		font-size: 24px;
+		padding: 10px;	}
+		.radi {
+			background-color: #fff;
+			box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+			padding: 20px;
+			margin-top: 20;
+			margin-top: 20px;
+			margin-left: 100px;
+			margin-right: 10px;
+			width: 250px;
+			margin-bottom: 50px;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: transform 0.3s ease-in;
+		}
+		.mission i{
+			font-size: 65px;
+	        margin-left: 60px;
+	        padding-top: 10px;
+
+		}
+		
+.mission h4 {
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    width: 200px;
+}
+.pcar h2 {
+    text-align: center;
+    font-size: 27px;
+    padding: 35px 20px;
+    background-color: #043140;
+    color: white;
+}
+
+.projcard {
+    position: relative;
+    width: 550px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    font-size: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    margin-left: -30px;
+}
+/* .projcard-textbox::before, .projcard-textbox::after {
+    content: "";
+    position: absolute;
+
+} */
+.projcard-textbox::after {
+    left: initial;
+}
+.projcard-img {
+    position: absolute;
+	height: 250px;
+    width: 200px;
+    top: 0;
+    left: 0;
+    object-position: center center;
+}
+/* .projcard-img{
+    position: absolute;
+    height: 225px;
+    width: 280px;
+    top: 0;
+    left: 0;
+    object-position: center center;
+} */
+/* .projcard-textbox {
+    position: relative;
+    width: 262px;
+	margin-left: -123px;
+	font-size:13px;
+} */
+ .projcard-blue .projcard-textbox{
+	/* position: absolute;
+    top: 7%;
+    bottom: 7%;
+    left: 246px;
+    width: calc(100% - 470px);
+	font-size: 12px; */
+    width: 256px;
+    margin-left: -179px;
+}
+ .projcard-red .projcard-textbox{
+    
+	width: 256px;
+    font-size: 9px;
+}
+.projcard:nth-child(2n) .projcard-textbox {
+	left: initial;
+	right: 250px; 
+}
+.projcard-description {
+    font-size: 14px;
+    color: #424242;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.projcard-green .projcard-textbox{
+	width: 295px;
+margin-left: -173px;
+}
+.projcard-customcolor .projcard-textbox{
+	width: 256px;
+
+}
+/* .ppt{
+	display: flex;
+	padding-bottom: 75px;
+	margin: 30px;
+
+}
+.product-details{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    padding: 35px;
+    height: 53%;
+    float: left;
+	width: 400px;
+	text-align: center;
+}
+.product-image img {
+    vertical-align: middle;
+    border-style: none;
+    width: 341px;
+    height: 174px;
+    object-position: center center;
+	object-fit: cover;
+	margin: 25px;
+}
+.product-image{
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 421px;
+    display: inline-block;
+	margin-left: 38px;
+	margin-bottom: 30px;
+}
+.subsc{
+	display: none;
+} */
+.ppt{
+	display: flex;
+	padding-bottom: 75px;
+	margin: 30px;
+
+}
+.product-details{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    padding: 35px;
+    height: 53%;
+    float: left;
+	width: 400px;
+	text-align: center;
+}
+.product-image img {
+    vertical-align: middle;
+    border-style: none;
+    width: 341px;
+    height: 174px;
+    object-position: center center;
+	object-fit: cover;
+	margin: 25px;
+}
+.product-image{
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 421px;
+    display: inline-block;
+	margin-left: 38px;
+	margin-bottom: 30px;
+}
+.subsc{
+	display: none;
+}
+.video .content h1 {
+    margin-top: 74px;
+    font-size: 20px;
+}
+video .content .player {
+    margin-top: 59px;
+    margin-left: -138px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+
+	.carousel-item img{
+		width: 992px;
+		height: auto;
+		object-fit: cover;
+		
+	}
+
+	.carousel{
+		padding: 10px;
+	}
+	.mission h2{
+
+		font-size: 24px;
+		padding: 10px;	}
+		.radi {
+			background-color: #fff;
+			box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+			padding: 20px;
+			margin-top: 20;
+			margin-top: 20px;
+			margin-left: 4px;
+			margin-right: 10px;
+			width: 222px;
+			margin-bottom: 50px;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: transform 0.3s ease-in;
+		}
+		.mission i{
+			font-size: 65px;
+	        margin-left: 60px;
+	        padding-top: 10px;
+
+		}
+		
+.mission h4 {
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    width: 200px;
+}
+.pcar h2 {
+    text-align: center;
+    font-size: 27px;
+    padding: 35px 20px;
+    background-color: #043140;
+    color: white;
+}
+
+.projcard {
+    position: relative;
+    width: 700px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    font-size: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+	margin-left: -30px;
+	margin-right:20px;
+}
+/* .projcard-textbox::before, .projcard-textbox::after {
+    content: "";
+    position: absolute;
+
+} */
+.projcard-textbox::after {
+    left: initial;
+}
+.projcard-img {
+    position: absolute;
+	height: 250px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    object-position: center center;
+}
+/* .projcard-img{
+    position: absolute;
+    height: 225px;
+    width: 280px;
+    top: 0;
+    left: 0;
+    object-position: center center;
+} */
+/* .projcard-textbox {
+    position: relative;
+    width: 262px;
+	margin-left: -123px;
+	font-size:13px;
+} */
+ .projcard-blue .projcard-textbox{
+	/* position: absolute;
+    top: 7%;
+    bottom: 7%;
+    left: 246px;
+    width: calc(100% - 470px);
+	font-size: 12px; */
+	width: 314px;
+	margin-left: -86px;
+}
+ .projcard-red .projcard-textbox{
+    
+	width: 256px;
+    font-size: 9px;
+}
+.projcard:nth-child(2n) .projcard-textbox {
+	left: initial;
+	right: 350px; 
+}
+.projcard-description {
+    font-size: 14px;
+    color: #424242;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.projcard-green .projcard-textbox{
+	width: 270px;
+margin-left: -70px;
+}
+.projcard-customcolor .projcard-textbox{
+	width: 256px;
+
+}
+.ppt{
+	display: flex;
+	padding-bottom: 75px;
+	margin: 30px;
+
+}
+.product-details{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    padding: 35px;
+    height: 53%;
+    float: left;
+	width: 400px;
+	text-align: center;
+}
+.product-image img {
+    vertical-align: middle;
+    border-style: none;
+    width: 301px;
+    height: 174px;
+    object-position: center center;
+	object-fit: cover;
+	margin: 25px;
+}
+.product-image{
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 421px;
+    display: inline-block;
+	margin-left: 38px;
+	margin-bottom: 30px;
+}
+.subsc{
+	display: none;
+}
+.video .content h1 {
+    margin-top: 74px;
+    font-size: 20px;
+}
+.video .content .player {
+    margin-left: -150px;
+    margin-top: 193px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 993px) and (max-width: 1159px) {
+
+	.carousel-item img{
+		width: 1199px;
+		height: auto;
+		object-fit: cover;
+		
+	}
+
+	.carousel{
+		padding: 10px;
+	}
+	.mission h2{
+
+		font-size: 24px;
+		padding: 10px;	}
+		.radi {
+			background-color: #fff;
+			box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+			padding: 20px;
+			margin-top: 20;
+			margin-top: 20px;
+			margin-left: 4px;
+			margin-right: 10px;
+			width: 222px;
+			margin-bottom: 50px;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: transform 0.3s ease-in;
+		}
+		.mission i{
+			font-size: 65px;
+	        margin-left: 60px;
+	        padding-top: 10px;
+
+		}
+		
+.mission h4 {
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    width: 200px;
+}
+.pcar h2 {
+    text-align: center;
+    font-size: 27px;
+    padding: 35px 20px;
+    background-color: #043140;
+    color: white;
+}
+
+.projcard {
+    position: relative;
+    width: 875px;
+height: 339px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    font-size: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+	margin-left: -30px;
+	margin-right:20px;
+}
+.ppt{
+	display: flex;
+	padding-bottom: 75px;
+	margin: 30px;
+
+}
+.product-details{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    padding: 35px;
+    height: 53%;
+    float: left;
+	width: 400px;
+	text-align: center;
+}
+.product-image img {
+    vertical-align: middle;
+    border-style: none;
+    width: 341px;
+    height: 174px;
+    object-position: center center;
+	object-fit: cover;
+	margin: 25px;
+}
+.product-image{
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 421px;
+    display: inline-block;
+	margin-left: 38px;
+	margin-bottom: 30px;
+}
+.subsc{
+	display: none;
+}
+.video .content h1 {
+    margin-top: 74px;
+    font-size: 20px;
+}
+
+}

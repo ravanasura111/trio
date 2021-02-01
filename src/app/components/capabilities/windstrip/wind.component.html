@@ -1,0 +1,33 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Wind Tooling</li>
+</ul>
+<section class="wind">
+    <div class="container">
+        <div class="col-md-12">
+            <h5>Wind Tooling</h5>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <p>
+                TrioVision has been actively doing tooling for Wind energy projects starting from 1 MW to 3 MW capacities. Till date wind tooling close to 3,000 square meter tools have been made for various components of nacelle cover, nose cone both in standard and modular design concepts. 
+            </p>
+            <p>
+                Tools were produced for various processes like Open Molding, Vacuum Infusion process and Silicone Bagging processes. The biggest tool made was for Nacelle cover of 3 MW which has an area of 85 square meter and the length 15 meter and width 5 meter (plug machined in single piece) where the parts are made in vacuum infusion process. 
+
+             </p>
+             <p>
+                 TrioVision has created a unique name for itself in Wind tooling market where qualities and accuracies are never compromised. This can be seen in the quick assemblies of the components on the windmill where no dimensional issues are reported especially for complex assembly like Bottom Cover.
+
+             </p>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

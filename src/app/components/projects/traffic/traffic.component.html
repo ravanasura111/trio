@@ -1,0 +1,39 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">More Projects<i class="fas fa-greater-than"></i></li>
+
+    <li class="normal">Police Traffic Booth</li>
+</ul>
+
+<section class="traffic">
+    <div class="container">
+        <div class="col-md-12">
+            <h5>Police Traffic Booth</h5>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <p>            
+                TrioVision in collaboration with Gaha Innofab has designed and developed from concept 6.5 feet and 4.5 feet circular police traffic booths supplied to Signpost in Bengaluru. These booths have been of great benefit to the BBMP policemen where they can sit inside and still have 360 degrees viewing along with signal controls and CCTV controlled from the booth. 
+
+
+            </p>
+            <p>
+                The booth also has special app based locking system fully secured where no one other than police can enter inside the booth and take control of the traffic. Currently the booth is serving at 60 locations and another 40 locations are added in the coming days. 
+
+            </p>
+            <p>
+                The booths have also been of utmost use during the pandemic period providing safety to the policemen from COVID.
+
+            </p>
+
+        </div>
+        <div class="col-md-12 images">
+            <div class="row">
+                <div class="col-md-6 col-sm-12" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,42 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">More Projects<i class="fas fa-greater-than"></i></li>
+
+    <li class="normal">Smart SUMV For Lush Motors</li>
+</ul>
+<section class="lush">
+    <div class="container">
+        <div class="col-md-12">
+            <h5>Smart SUMV For Lush Motors</h5>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <p>TrioVision in collaboration with Lush Motors has designed a Smart Urban Mobility Vehicle- 2 seater x 3 wheeler for city commuting. The vehicle is built in GFRP using closed molding process with specialized loose insert tooling. The part is monolithic and carefully engineered to give best strength at low weight giving efficiency to the vehicle. 
+                </p>
+                <div class="player">
+                    <youtube-player 
+                    videoId="mMpnRV2q_7g" 
+                    suggestedQuality="highres" 
+                    [height]="350" 
+                    [width]="600" 
+                    [startSeconds]="1"
+                    [endSeconds]="168">
+                  </youtube-player>
+                </div>
+            <p>
+                The vehicle is electric and all the electronics, touch screen, app development has been done by TrioVision. A workable prototype has been delivered within a short span of 6 months which includes design and engineering. The project is well appreciated and has moved to ARAI approvals.
+            </p>
+        </div>
+      
+     
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>

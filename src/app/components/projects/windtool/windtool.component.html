@@ -1,0 +1,49 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">More Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Wind Strip</li>
+</ul>
+<section class="windtool">
+    <div class="container">
+        <div class="col-md-12">
+            <h5>VAWM For WindStrip</h5>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <p>TrioVision in collaboration with Windistrip LLC based at Minnesota has developed Vertical Axis Wind Mill hybrid system consisting of 4 KW wind and 4 KW solar. 
+               </p>
+        <p>
+            The 1290 series that is developed has 18 blades with a baseline of Savonius effect and patented design by Windstrip. The blades are designed in such a way that the wind cutting direction is carefully simulated allowing the system to start running at barely 2 meter per second wind speeds. 
+
+        </p>
+        <p>
+            TrioVision has engineered and done tooling, prototyping and manufactured units and exported to Nigeria for installation. These systems find great use for cell phone towers which are remotely located and run with Diesel Generators. 
+
+        </p>
+        <div class="col-md-6 col-sm-12 player">
+            <youtube-player 
+            videoId="PrYuxGMswzM" 
+            suggestedQuality="highres" 
+            [height]="350" 
+            [width]="600" 
+            [startSeconds]="1"
+            [endSeconds]="168">
+          </youtube-player>
+          </div>
+        <p>
+            The unit has been engineered with latest material using epoxy infusion process allowing blade thickness close to 2 mm to give a great advantage in weight reduction and improved performance.
+        </p>
+            </div>
+
+   
+     
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                    <img [src]="image.thumb" (click)="open(i)"  />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

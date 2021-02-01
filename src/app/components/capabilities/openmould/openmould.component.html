@@ -1,0 +1,30 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Capabilities<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Manufacturing<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Open Moulding</li>
+</ul>
+<section class="open">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>Open Moulding</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+           <p>
+            TrioVision has capabilities to process any complex shapes in open molding process without limitation to size. Using skilled resources, desired resin to glass ratio can be achieved with consistency in weight and thickness.
+
+           </p>
+           <p>
+            We have processed close to 6000 square meter of tools and produced more than 100 tons of resin in various projects in Open Molding.
+           </p>
+       </div>
+       <div class="container images">
+        <div class="row">
+            <div class="col-md-6 col-sm-12" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+        </div>
+   </div>
+   </div>
+</section>

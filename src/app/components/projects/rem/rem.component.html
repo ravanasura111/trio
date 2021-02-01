@@ -1,0 +1,30 @@
+<ul>
+    <li routerLink="" class="high">Home<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Projects<i class="fas fa-greater-than"></i></li>
+    <li class="normal">Montreal REM</li>
+</ul>
+<section class="rem">
+   <div class="container">
+       <div class="col-md-12">
+           <h5>Montreal REM</h5>
+           <hr>
+       </div>
+       <div class="col-md-12">
+        <p>
+            TrioVision in collaboration with RPC Technologies is executing Metro project for Montreal. The train is built by Alstom Transportation at its Sri City facility and exported to Canada. With a total trains of 106 having 2 coaches per train this is the second export project of Alstom Transportation. The scopes include Front End, Cab Fitting, Driver’s Desk, Electrical Cubicles and Door Pillars.        </p>
+        <p>
+            Made to meet stringent fire standards of EN 45545 HL 2, and painted with a 3 coat system from Bhimrajka Mader and with a great combination of colours this is truly a “Made in India” product. Despite pandemic situation, TrioVision/RPC/Alstom have been relentlessly working on this project to ramp up and meet desired timelines.
+        </p>
+       
+    </div>
+       <div class="col-md-12 rems">
+           <div class="row">
+            <div class="col-md-4 col-sm-6" *ngFor="let image of albums; let i=index">
+                <img [src]="image.thumb" (click)="open(i)"  />
+            </div>
+
+            
+           </div>
+       </div> 
+   </div>
+</section>

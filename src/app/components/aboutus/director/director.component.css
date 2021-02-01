@@ -1,0 +1,57 @@
+.director {
+    padding-top: 5px;
+}
+ ul li{
+    float: left;
+    padding: 10px 0;
+    display: block;
+    
+}
+ ul{
+    list-style: none;
+}
+ ul li{
+      font-size: 14px;
+      padding: 5px 5px;
+
+}
+ ul li i{
+    font-size: 10px;
+    padding: 0px 10px;
+}
+ ul li:focus{
+    outline: none;
+}
+ .high{
+    font-size: 15px!important;
+    color: orange!important;
+}
+ .high:hover{
+    color: rgb(9, 29, 19)!important;
+    cursor: pointer;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+
+.container h5{
+    color: #ff5e14;
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 10px rgba(78, 57, 57, 0.2);
+    border-radius: 5px;
+    border: 1px #ddd solid;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
